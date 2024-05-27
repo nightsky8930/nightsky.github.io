@@ -1,7 +1,7 @@
 {
   "name": "palmetto-badminton-club",
   "version": "0.1.0",
-  "homepage": "https://nightsky8930.github.io",
+  "homepage": "https://nightsky8930.github.io/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
