@@ -1,15 +1,12 @@
-import React from 'react';
-import './App.css';
 import Home from './components/home/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import AboutUs from './components/AboutUs';
-import MembershipAndFees from './components/MembershipAndFees';
-import NavBar from './components/HeaderBar/NavBar';
+import AboutUs from './components/about-us/AboutUs';
+import MembershipAndFees from './components/membership-and-fees/MembershipAndFees';
+import NavBar from './components/headerbar/NavBar';
 
 function App() {
   return (
-    <div className="App">
-      {/* <ResponsiveHeaderBar /> */}
+    <div className="text-center w-full">
       <BrowserRouter>
         <NavBar />
         <Routes>
