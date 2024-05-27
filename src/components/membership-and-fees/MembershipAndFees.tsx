@@ -6,11 +6,11 @@ import Footer from "../footer/Footer";
 class MembershipAndFees extends Component {
   render() {
     return (
-      <div className="flex flex-col bg-gray-100 justify-center items-center">
-        <div className="">
+      <div className="bg-gray-100 justify-center items-center">
+        <div>
           <WaiverForm />
         </div>
-        <div className="bg-white flex">
+        <div className="bg-white flex-grow flex flex-col justify-center">
           <PaymentInfo />
         </div>
         <div>
