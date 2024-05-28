@@ -11,7 +11,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/membership-&-fees" element={<MembershipAndFees />} />
+          <Route path="/membership-and-fees" element={<MembershipAndFees />} />
         </Routes>
       </BrowserRouter>
     </div>
