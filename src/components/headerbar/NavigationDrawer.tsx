@@ -62,7 +62,7 @@ const NavigationDrawer = () => {
             </button>
           </div>
           <nav className="p-4 space-y-1 text-4xl text-white text-left hover:text-green-100">
-            <a href="/"className="block border-b border-gray-100 border-opacity-30 px-3 py-2 text-base font-medium">Home</a>
+            <a href="/" className="block border-b border-gray-100 border-opacity-30 px-3 py-2 text-base font-medium">Home</a>
             <a href="/test-page" className="block border-b border-gray-100 border-opacity-30 px-3 py-2 text-base font-medium">Test Page</a>
             <a href="/membership-&-fees" className="block border-b border-gray-100 border-opacity-30 px-3 py-2 text-base font-medium">Membership & Fees</a>
           </nav>
