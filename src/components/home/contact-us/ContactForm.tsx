@@ -40,7 +40,7 @@ const ContactForm = () => {
       </div>
       <div className="flex-grow flex flex-row items-center">
         <button
-          className="flex-grow flex bg-green-500 hover:bg-green-700 items-center justify-center rounded-full text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          className="flex-grow flex bg-green-500 hover:bg-green-700 items-center justify-center rounded-full text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline"
           type="button"
         >
           SEND
