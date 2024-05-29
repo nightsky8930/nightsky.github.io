@@ -7,7 +7,7 @@ import NavBar from "./components/headerbar/NavBar";
 function App() {
   return (
     <div className="text-center w-full">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
