@@ -7,9 +7,7 @@ const ContactUs = () => {
         {/* Left Column: Contact Form */}
         <div className="md:w-1/2 p-6">
           <h2 className="text-2xl md:text-left font-semibold mb-4">Reach us!</h2>
-          <form>
-            <ContactForm />
-          </form>
+          <ContactForm />
         </div>
         {/* Right Column: Contact Information */}
         <div className="md:w-1/2 p-6">
