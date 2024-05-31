@@ -25,6 +25,9 @@ const ContactForm = () => {
     e.preventDefault();
   
     sendEmail(formRef);
+    setName("");
+    setEmail("");
+    setMessage("");
     setSubscribe(false);
   };
 
