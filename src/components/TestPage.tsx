@@ -1,12 +1,9 @@
-import * as React from 'react';
-import NavbarNew from './test/NavbarNew';
-import NavigationDrawer from './headerbar/NavigationDrawer';
+import Calendar from "./calendar/Calendar";
 
 const TestPage = () => {
   return (
-    <div className="border border-black border-r-4">
-      <NavbarNew />
-      <NavigationDrawer />
+    <div className="bg-customSeaGreen flex-grow flex flex-row justify-center p-32">
+      <Calendar />
     </div>
   );
 };

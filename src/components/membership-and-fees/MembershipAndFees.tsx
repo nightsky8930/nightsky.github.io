@@ -1,6 +1,6 @@
 import React from "react";
 import WaiverForm from "./WaiverForm";
-import PaymentInfo from "./PaymentInfo";
+import PaymentInfoNew from "./PaymentInfoNew";
 import Footer from "../footer/Footer";
 
 const MembershipAndFees = () => {
@@ -9,8 +9,8 @@ const MembershipAndFees = () => {
       <div>
         <WaiverForm />
       </div>
-      <div className="bg-white flex-grow flex flex-col justify-center">
-        <PaymentInfo />
+      <div className="bg-customSeaGreen flex-grow flex flex-col justify-center">
+        <PaymentInfoNew />
       </div>
       <div>
         <Footer />

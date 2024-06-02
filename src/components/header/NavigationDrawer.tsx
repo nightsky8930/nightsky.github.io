@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import CloseIcon from '../icons/CloseIcon';
 import HamburgerMenuIcon from '../icons/HamburgerMenuIcon';
 import { Link } from 'react-router-dom';
-import logo from '../../images/pbc-logo.png';
+import logo from '../../images/pbc-logo-new.png';
 
 const NavigationDrawer = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,9 +16,9 @@ const NavigationDrawer = () => {
       <nav className="bg-white md:p-4">
         <div className="flex flex-grow px-4 sm:px-6 lg:px-8">
           <div className="flex flex-grow flex-row">
-            <div className="flex-shrink-0 justify-between items-center w-1/4">
+            <div className="flex justify-between items-center max-md:py-2 md:w-1/4">
               <Link to="/">
-                <img className="h-24 w-36 max-md:h-16 max-md:w-30" src={logo} alt="Palmetto Badminton Club" />
+                <img className="h-full max-md:h-16 w-full" src={logo} alt="Palmetto Badminton Club" />
               </Link>
             </div>
             <div className="flex-grow flex flex-row md:hidden justify-end max-md:px-4">
@@ -61,10 +61,16 @@ const NavigationDrawer = () => {
               <CloseIcon />
             </button>
           </div>
-          <nav className="p-4 space-y-1 text-4xl text-white text-left hover:text-green-100">
-            <Link to="/" onClick={toggleDrawer} className="block border-b border-gray-100 border-opacity-30 px-3 py-2 text-base font-medium">Home</Link>
-            <Link to="/test-page" onClick={toggleDrawer} className="block border-b border-gray-100 border-opacity-30 px-3 py-2 text-base font-medium">Test Page</Link>
-            <Link to="/membership-and-fees" onClick={toggleDrawer} className="block border-b border-gray-100 border-opacity-30 px-3 py-2 text-base font-medium">Membership & Fees</Link>
+          <nav className="py-4 px-6 space-y-1 text-xl font-aria text-white text-left">
+            <div className="block border-b border-gray-100 border-opacity-30 px-6 py-4">
+              <Link to="/" onClick={toggleDrawer} className="hover:text-green-100">Home</Link>
+            </div>
+            <div className="block border-b border-gray-100 border-opacity-30 px-6 py-4">
+              <Link to="/test-page" onClick={toggleDrawer} className="">Test Page</Link>
+            </div>
+            <div className="block border-b border-gray-100 border-opacity-30 px-6 py-4">
+              <Link to="/membership-and-fees" onClick={toggleDrawer} className="">Membership & Fees</Link>
+            </div>
           </nav>
         </div>
       </div>

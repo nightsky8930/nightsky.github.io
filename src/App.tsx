@@ -2,12 +2,12 @@ import React from "react";
 import Home from "./components/home/Home";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import MembershipAndFees from "./components/membership-and-fees/MembershipAndFees";
-import NavBar from "./components/headerbar/NavBar";
+import NavBar from "./components/header/NavBar";
 import TestPage from "./components/TestPage";
 
 function App() {
   return (
-    <div className="text-center w-full">
+    <div className="flex-grow flex flex-col text-center w-full">
       <HashRouter>
         <NavBar />
         <Routes>
