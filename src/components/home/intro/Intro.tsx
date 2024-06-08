@@ -16,25 +16,25 @@ const HeroText = () => {
 
 const Intro = () => {
   return (
-    <div>
-      {/* <div className=" flex-grow flex flex-col justify-center items-center"> */}
-        <div className="max-md:hidden bg-gray-800 p-6 flex-grow flex flex-row items-center justify-center shadow-lg text-center">
+    <>
+      <div className="bg-gray-500">
+        <div className="max-md:hidden p-6 flex-grow flex flex-row items-center justify-center shadow-lg text-center">
           <div className="w-1/2 mx-4 px-32 items-center">
             <HeroText />
           </div>
-          <div className="w-1/2 p-4">
-            <div className="h-auto w-auto">
-              <img
-                className="float-right"
-                src={CourtPic}
-                alt="Court pics not found!!"
-              ></img>
+          <div className="w-1/2 px-32 py-8">
+            <div className="md:h-80 md:w-85 overflow-hidden">
+              <div className="h-full w-full">
+                <img
+                  className="float-right"
+                  src={CourtPic}
+                  alt="Court pics not found!!"
+                ></img>
+              </div>
             </div>
           </div>
         </div>
-      {/* </div> */}
-      {/* <div className="flex-grow flex flex-row justify-center items-center"> */}
-        <div className="md:hidden bg-gray-800 p-6 flex-grow flex flex-col items-center justify-center shadow-lg text-center">
+        <div className="md:hidden p-6 flex-grow flex flex-col items-center justify-center shadow-lg text-center">
           <div className="h-auto w-auto p-4">
             <img
               className="float-right"
@@ -46,8 +46,8 @@ const Intro = () => {
             <HeroText />
           </div>
         </div>
-      {/* </div> */}
-    </div>
+      </div>
+    </>
   );
 };
 
