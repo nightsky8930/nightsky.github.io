@@ -3,7 +3,7 @@ import NavigationDrawer from './NavigationDrawer';
 
 const NavBar = () => {
   return (
-    <div className="sticky top-0 z-50">
+    <div className="sticky top-0 z-50 w-full">
       {/* <nav className="bg-white md:p-4">
         <div className="flex flex-grow px-4 sm:px-6 lg:px-8">
           <div className="flex flex-grow flex-row">

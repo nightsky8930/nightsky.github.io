@@ -39,6 +39,9 @@ const NavigationDrawer = () => {
                   <Link to="/" className="hover:bg-gray-300">HOME</Link>
                 </li>
                 <li>
+                  <Link to="/calendar" className="hover:bg-gray-300">CALENDAR</Link>
+                </li>
+                <li>
                   <Link to="/test-page" className="hover:bg-gray-300">TEST PAGE</Link>
                 </li>
                 <li>
@@ -64,6 +67,9 @@ const NavigationDrawer = () => {
           <nav className="py-4 px-6 space-y-1 text-xl font-aria text-white text-left">
             <div className="block border-b border-gray-100 border-opacity-30 px-6 py-4">
               <Link to="/" onClick={toggleDrawer} className="hover:text-green-100">Home</Link>
+            </div>
+            <div className="block border-b border-gray-100 border-opacity-30 px-6 py-4">
+              <Link to="/calendar" onClick={toggleDrawer} className="hover:text-green-100">Calendar</Link>
             </div>
             <div className="block border-b border-gray-100 border-opacity-30 px-6 py-4">
               <Link to="/test-page" onClick={toggleDrawer} className="">Test Page</Link>
