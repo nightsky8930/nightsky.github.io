@@ -33,11 +33,11 @@ const ClubInfo = () => {
         </a>
       </p>
       <h3 className="text-2xl font-semibold mb-4">Operating Hours</h3>
-      <div className="flex rounded-lg justify-center md:justify-start">
-        <div className="w-full">
-          <table className="rounded-lg mb-4 w-full border-collapse p-4">
+      <div className="shadow appearance-none forced-color-adjust-auto flex justify-center md:justify-start rounded-lg">
+        <div className="w-full rounded-lg">
+          <table className="w-full border-collapse p-4">
             <thead className="">
-              <tr className="bg-gray-100">
+              <tr className="bg-gray-300">
                 <th className="rounded-tl-lg px-4 py-2 text-left text-gray-600">
                   Day
                 </th>
@@ -58,12 +58,12 @@ const ClubInfo = () => {
               ].map((entry, index) => (
                 <tr
                   key={entry.day}
-                  className={`border-b ${
-                    index % 2 === 0 ? "bg-gray-50" : "bg-white"
+                  className={`${
+                    index % 2 === 0 ? "bg-gray-100" : "bg-white"
                   }`}
                 >
-                  <td className="px-4 py-2 text-gray-700">{entry.day}</td>
-                  <td className="px-4 py-2 text-left text-gray-700">
+                  <td className={`px-4 py-2 text-gray-700 ${(entry.day === "Sun") ? "rounded-bl-lg" : ""}`}>{entry.day}</td>
+                  <td className={`px-4 py-2 text-left text-gray-700 ${(entry.day === "Sun") ? "rounded-br-lg" : ""}`}>
                     {entry.hours}
                   </td>
                 </tr>

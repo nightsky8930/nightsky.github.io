@@ -95,7 +95,7 @@ const ReactCalendar = () => {
             key={day.getDate()}
           >
             <span className="absolute top-2 right-2 font-bold">{formattedDate}</span>
-            <span className="absolute inset-0 flex items-center justify-center text-8xl font-bold text-blue-100 opacity-0 hover:opacity-25">
+            <span className="absolute inset-0 flex items-center justify-center text-8xl font-bold text-blue-100 opacity-0 hover:opacity-50">
               {formattedDate}
             </span>
           </div>

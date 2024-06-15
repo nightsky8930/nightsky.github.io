@@ -118,7 +118,7 @@ const ContactForm = () => {
             </div>
             <div className="flex-grow flex flex-row items-center">
               <button
-                className="flex-grow flex bg-gray-500 hover:bg-blue-700 items-center justify-center rounded-full text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline"
+                className="flex-grow flex bg-gray-500 hover:bg-green-600 items-center justify-center rounded-full text-white font-bold py-2 px-4 focus:outline-none focus:shadow-outline"
                 type="submit"
               >
                 SEND
