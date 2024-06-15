@@ -42,7 +42,7 @@ const NavigationDrawer = () => {
                   <Link to="/calendar" className="hover:bg-gray-300">CALENDAR</Link>
                 </li>
                 <li>
-                  <Link to="/test-page" className="hover:bg-gray-300">TEST PAGE</Link>
+                  <Link to="/test-page" className="hover:bg-gray-300">LOCATE US</Link>
                 </li>
                 <li>
                   <Link to="/membership-and-fees" className="hover:bg-gray-300">MEMBERSHIP & FEES</Link>
@@ -72,7 +72,7 @@ const NavigationDrawer = () => {
               <Link to="/calendar" onClick={toggleDrawer} className="hover:text-green-100">Calendar</Link>
             </div>
             <div className="block border-b border-gray-100 border-opacity-30 px-6 py-4">
-              <Link to="/test-page" onClick={toggleDrawer} className="">Test Page</Link>
+              <Link to="/test-page" onClick={toggleDrawer} className="">Locate Us</Link>
             </div>
             <div className="block border-b border-gray-100 border-opacity-30 px-6 py-4">
               <Link to="/membership-and-fees" onClick={toggleDrawer} className="">Membership & Fees</Link>
