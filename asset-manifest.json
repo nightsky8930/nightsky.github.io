@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.334572a5.css",
-    "main.js": "/static/js/main.716ced28.js",
+    "main.css": "/static/css/main.6f62f2d1.css",
+    "main.js": "/static/js/main.84255080.js",
     "static/js/453.fd6f6ef7.chunk.js": "/static/js/453.fd6f6ef7.chunk.js",
     "static/media/court.jpeg": "/static/media/court.8ae914e78f07da543d57.jpeg",
     "static/media/pbc-logo-new.png": "/static/media/pbc-logo-new.353b4a272393f609b439.png",
     "index.html": "/index.html",
-    "main.334572a5.css.map": "/static/css/main.334572a5.css.map",
-    "main.716ced28.js.map": "/static/js/main.716ced28.js.map",
+    "main.6f62f2d1.css.map": "/static/css/main.6f62f2d1.css.map",
+    "main.84255080.js.map": "/static/js/main.84255080.js.map",
     "453.fd6f6ef7.chunk.js.map": "/static/js/453.fd6f6ef7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.334572a5.css",
-    "static/js/main.716ced28.js"
+    "static/css/main.6f62f2d1.css",
+    "static/js/main.84255080.js"
   ]
 }
